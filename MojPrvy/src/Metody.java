@@ -24,6 +24,8 @@ public class Metody {
 		
 		System.out.println(Math.pow(100, 0.5));
 		System.out.println(Math.sqrt(100));
+		
+		System.out.println(jeParne(12));
 	}
 	
 	//metody bez navratoveho typu
@@ -72,6 +74,10 @@ public class Metody {
 			pole[i] = hodnota;
 		}
 		return pole;
+	}
+	
+	static boolean jeParne(int cislo) {
+		return cislo % 2 == 0;
 	}
 
 }
