@@ -24,4 +24,8 @@ class Kruznica {
 		System.out.println("Obsah: " + obsah() + " cm");
 		System.out.println("Obvod: " + obvod() + " cm");
 	}
+	
+	public String toString() {
+		return "Kruznica so stredom[" + x + ", " + y + "] r = " + polomer;
+	}
 }

@@ -29,6 +29,8 @@ public class Tester {
 		k1.kompletInfo();
 		k2.kompletInfo();
 		
+		System.out.println(k1);
+		
 		
 
 	}
